@@ -1,0 +1,87 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: #262626;
+}
+
+/* Color of the navbar BEFORE scroll */
+.navbar-scroll {
+    background-color: #ffc017;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: #262626;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+    background-color: #222222;
+}
+
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.navbar-brand {
+    font-size: unset;
+    height: 3.5rem;
+}
+
+.whiteboard {
+    background-color: rgba(126, 131, 135, 0.729);
+    border-radius: 15px;
+    margin: 8%;
+    padding: 5%;
+}
+
+.nome {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.foto {
+    width: 350px;
+    border-radius: 10%;
+    background-color: rgba(234, 241, 247, 0.729);
+}
+
+.hello {
+    color: #ffce1d;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+.apresentacao {
+    color: aliceblue;
+    width: 400px;
+}
+
+.td-none {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-contact {
+    width: 120px;
+    height: 40px;
+    background-color: #ffce1d;
+    border: none;
+    border-radius: 12px;
+}
+
+.btn-contact:hover {
+    background-color: #ffce1deb;
+}
+
+.project-img {
+    width: 600px;
+    /* height: 350px; */
+    border-radius: 5px;
+}
