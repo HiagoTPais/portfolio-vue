@@ -1,6 +1,9 @@
 <template>
   <div class="container">
-    <div class="d-flex justify-content-between whiteboard">
+    <div class="d-flex justify-content-between mt10">
+      <div>
+        <img class="foto" src="../assets/img/foto.png" />
+      </div>
       <div class="ta-left">
         <p class="hello">Hello, Welcome</p>
         <p class="nome">My name is Hiago Pais</p>
@@ -20,11 +23,8 @@
         </p>
 
         <button type="button" class="btn-contact">
-          <RouterLink class="td-none" to="/contato">Contact Me</RouterLink>
+          <RouterLink to="/contato">Contact Me</RouterLink>
         </button>
-      </div>
-      <div>
-        <img class="foto" src="../assets/img/foto.png" />
       </div>
     </div>
   </div>

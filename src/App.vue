@@ -1,7 +1,6 @@
 <template>
   <NavBar />
   <RouterView />
- 
 </template>
 
 <script>
@@ -13,7 +12,6 @@ export default {
 
   components: {
     NavBar,
-  
   },
 };
 </script>
@@ -29,6 +27,18 @@ export default {
 }
 
 body {
+  background: linear-gradient(
+    5deg,
+    transparent 30%,
+    blue 100%,
+    #87ceeb 100%,
+    transparent 70%
+  );
+  background-repeat: no-repeat;
   background-color: #222222;
+}
+
+.stripe {
+  background-size: 200% 200%;
 }
 </style>

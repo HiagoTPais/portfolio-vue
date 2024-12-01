@@ -1,7 +1,4 @@
-/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
+.nav-link {
     color: #262626;
 }
 
@@ -35,7 +32,6 @@
 .whiteboard {
     background-color: rgba(126, 131, 135, 0.729);
     border-radius: 15px;
-    margin: 8%;
     padding: 5%;
 }
 
@@ -45,43 +41,78 @@
 }
 
 .foto {
-    width: 350px;
+    width: 480px;
     border-radius: 10%;
-    background-color: rgba(234, 241, 247, 0.729);
+    background-color: rgb(25, 25, 25);
 }
 
 .hello {
-    color: #ffce1d;
+    color: aliceblue;
 }
 
 .ta-left {
     text-align: left;
+    margin-right: 3%;
 }
 
 .apresentacao {
     color: aliceblue;
-    width: 400px;
-}
-
-.td-none {
-    text-decoration: none;
-    color: black;
+    width: 600px;
 }
 
 .btn-contact {
     width: 120px;
     height: 40px;
-    background-color: #ffce1d;
+    background-color: blue;
     border: none;
     border-radius: 12px;
+    color: aliceblue !important;
 }
 
 .btn-contact:hover {
-    background-color: #ffce1deb;
+    background-color: rgb(0, 0, 214);
+    color: aliceblue !important;
+}
+
+.btn-contact a {
+    text-decoration: none;
+    color: aliceblue !important;
 }
 
 .project-img {
     width: 600px;
-    /* height: 350px; */
     border-radius: 5px;
+}
+
+.mt10 {
+    margin-top: 10%;
+}
+
+.nav-container {
+    position: absolute;
+    right: 2%;
+}
+
+.nav-item {
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.icon-gradient {
+    background: blue;
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+}
+
+.icon-back {
+    background: #383838;
+}
+
+.nav-icon {
+    color: white;
+    width: 30px;
+    margin-top: 4px;
 }
